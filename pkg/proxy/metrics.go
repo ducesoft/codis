@@ -10,10 +10,10 @@ import (
 	influxdbClient "github.com/influxdata/influxdb/client/v2"
 	statsdClient "gopkg.in/alexcesaro/statsd.v2"
 
-	"github.com/CodisLabs/codis/pkg/utils/errors"
-	"github.com/CodisLabs/codis/pkg/utils/log"
-	"github.com/CodisLabs/codis/pkg/utils/math2"
-	"github.com/CodisLabs/codis/pkg/utils/rpc"
+	"github.com/ducesoft/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/log"
+	"github.com/ducesoft/codis/pkg/utils/math2"
+	"github.com/ducesoft/codis/pkg/utils/rpc"
 )
 
 func (p *Proxy) startMetricsReporter(d time.Duration, do, cleanup func() error) {

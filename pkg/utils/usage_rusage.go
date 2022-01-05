@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/CodisLabs/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/errors"
 )
 
 /*

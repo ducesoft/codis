@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/CodisLabs/codis/pkg/utils/errors"
-	"github.com/CodisLabs/codis/pkg/utils/sync2/atomic2"
+	"github.com/ducesoft/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/sync2/atomic2"
 
 	redigo "github.com/garyburd/redigo/redis"
 )

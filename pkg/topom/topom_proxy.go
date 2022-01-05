@@ -4,11 +4,11 @@
 package topom
 
 import (
-	"github.com/CodisLabs/codis/pkg/models"
-	"github.com/CodisLabs/codis/pkg/proxy"
-	"github.com/CodisLabs/codis/pkg/utils/errors"
-	"github.com/CodisLabs/codis/pkg/utils/log"
-	"github.com/CodisLabs/codis/pkg/utils/sync2"
+	"github.com/ducesoft/codis/pkg/models"
+	"github.com/ducesoft/codis/pkg/proxy"
+	"github.com/ducesoft/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/log"
+	"github.com/ducesoft/codis/pkg/utils/sync2"
 )
 
 func (s *Topom) CreateProxy(addr string) error {

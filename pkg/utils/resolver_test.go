@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CodisLabs/codis/pkg/utils/assert"
+	"github.com/ducesoft/codis/pkg/utils/assert"
 )
 
 func TestLookupIP(t *testing.T) {

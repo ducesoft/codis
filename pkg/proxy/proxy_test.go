@@ -6,9 +6,9 @@ package proxy
 import (
 	"testing"
 
-	"github.com/CodisLabs/codis/pkg/models"
-	"github.com/CodisLabs/codis/pkg/utils/assert"
-	"github.com/CodisLabs/codis/pkg/utils/log"
+	"github.com/ducesoft/codis/pkg/models"
+	"github.com/ducesoft/codis/pkg/utils/assert"
+	"github.com/ducesoft/codis/pkg/utils/log"
 )
 
 var config = newProxyConfig()

@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/CodisLabs/codis/pkg/utils/errors"
-	"github.com/CodisLabs/codis/pkg/utils/log"
+	"github.com/ducesoft/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/log"
 )
 
 var ErrClosedClient = errors.New("use of closed fs client")

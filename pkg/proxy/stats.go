@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/CodisLabs/codis/pkg/utils"
-	"github.com/CodisLabs/codis/pkg/utils/sync2/atomic2"
+	"github.com/ducesoft/codis/pkg/utils"
+	"github.com/ducesoft/codis/pkg/utils/sync2/atomic2"
 )
 
 type opStats struct {

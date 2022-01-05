@@ -8,10 +8,10 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/CodisLabs/codis/pkg/utils/bytesize"
-	"github.com/CodisLabs/codis/pkg/utils/errors"
-	"github.com/CodisLabs/codis/pkg/utils/log"
-	"github.com/CodisLabs/codis/pkg/utils/timesize"
+	"github.com/ducesoft/codis/pkg/utils/bytesize"
+	"github.com/ducesoft/codis/pkg/utils/errors"
+	"github.com/ducesoft/codis/pkg/utils/log"
+	"github.com/ducesoft/codis/pkg/utils/timesize"
 )
 
 const DefaultConfig = `

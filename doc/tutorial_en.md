@@ -63,11 +63,11 @@ $ go env GOPATH
 
 #### 3. Download Codis Source Code
 
-The Codis source code needs to be downloaded to `$GOPATH/src/github.com/CodisLabs/codis`：
+The Codis source code needs to be downloaded to `$GOPATH/src/github.com/ducesoft/codis`：
 
 ```bash
 $ mkdir -p $GOPATH/src/github.com/CodisLabs
-$ cd $_ && git clone https://github.com/CodisLabs/codis.git -b release3.2
+$ cd $_ && git clone https://github.com/ducesoft/codis.git -b release3.2
 ```
 
 #### 4. Compile Codis Source Code
@@ -75,7 +75,7 @@ $ cd $_ && git clone https://github.com/CodisLabs/codis.git -b release3.2
 * use make tool to compile：
 
 ```bash
-$ cd $GOPATH/src/github.com/CodisLabs/codis
+$ cd $GOPATH/src/github.com/ducesoft/codis
 $ make
 make -j -C extern/redis-3.2.8/
 ... ...
@@ -157,7 +157,7 @@ tail -100 ./log/codis-fe.log.2017-04-08
 ```
 2017/04/08 16:12:13 main.go:100: [WARN] set ncpu = 1
 2017/04/08 16:12:13 main.go:103: [WARN] set listen = 0.0.0.0:9090
-2017/04/08 16:12:13 main.go:115: [WARN] set assets = /home/codis/go/src/github.com/CodisLabs/codis/admin/../bin/assets
+2017/04/08 16:12:13 main.go:115: [WARN] set assets = /home/codis/go/src/github.com/ducesoft/codis/admin/../bin/assets
 2017/04/08 16:12:13 main.go:153: [WARN] set --filesystem = /tmp/codis
 ```
 
